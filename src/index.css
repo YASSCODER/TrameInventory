@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+:root {
+    --font-family: 'Dongle', sans-serif;
+    --color-bg: rgb(1, 3, 40);
+}
