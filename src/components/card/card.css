@@ -1,0 +1,40 @@
+.card{
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 20px;
+    width: 28%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(81, 233, 81);
+}
+.card .card_image img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card_text p{
+    font-family: var(--font-family);
+    font-size: 180%;
+    font-weight: 500;
+    padding: 3%;
+}
+
+.card_button button{
+  width: 150px;
+  height: 40px;
+  left: 1125px;
+  top: 55px;
+  margin-left: 35%;
+  margin-bottom: 10%;
+  background: rgb(6, 6, 6);
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 160%;
+  border-radius: 50px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
