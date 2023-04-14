@@ -38,3 +38,6 @@
   outline:none;
   cursor: pointer;
 }
+.card_button button:hover{
+    color:#49ee47;
+}

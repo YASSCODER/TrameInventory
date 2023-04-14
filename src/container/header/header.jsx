@@ -6,8 +6,8 @@ const Header = () => {
     return(
         <div className="card_container">
             <Card/>
-            <CardThree/>
             <CardTwo/>
+            <CardThree/>
         </div>
     );
 }
