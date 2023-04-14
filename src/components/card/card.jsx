@@ -1,4 +1,3 @@
-import NavBar from "../../components/navBar/navBar";
 import './card.css'
 import card1 from '../../assets/card1.png';
 const card = () => {
