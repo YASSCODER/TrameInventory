@@ -10,7 +10,7 @@ const cardThree = () => {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut error a architecto iste assumenda repudiandae iure modi voluptatem sed doloribus.</p>
             </div>
             <div className="card_button">
-                <button type="button">List Products</button>
+                <button type="button">Actions</button>
             </div>
         </div>
     );

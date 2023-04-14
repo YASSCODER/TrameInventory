@@ -1,4 +1,3 @@
-import NavBar from "../../components/navBar/navBar";
 import './card.css'
 import card2 from '../../assets/card2.png';
 const cardTwo = () => {
@@ -11,7 +10,7 @@ const cardTwo = () => {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut error a architecto iste assumenda repudiandae iure modi voluptatem sed doloribus.</p>
             </div>
             <div className="card_button">
-                <button type="button">List Products</button>
+                <button type="button">Add Products</button>
             </div>
         </div>
     );
