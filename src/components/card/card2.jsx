@@ -7,7 +7,7 @@ const cardTwo = () => {
                 <img src={card2} alt="" />
             </div>
             <div className="card_text">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut error a architecto iste assumenda repudiandae iure modi voluptatem sed doloribus.</p>
+                <p>Ajoutez un produit à votre Stock. Vous pouvez également générer un code QR pour votre produit</p>
             </div>
             <div className="card_button">
                 <button type="button">Add Products</button>

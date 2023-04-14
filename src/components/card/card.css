@@ -15,11 +15,35 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
+.card .card_text{
+    height: 18%;
+    width: 60%;
+    margin-top: 25%;
+    margin-left: 18%;
+}
+.actions-text{
+    height: 10%;
+    width: 60%;
+    margin-top: 25%;
+    margin-left: 18%;
+}
+.actions-text p{
+    font-family: var(--font-family);
+    font-size: 200%;
+    font-weight: 500;
+    line-height: 80%;
+}
 .card_text p{
     font-family: var(--font-family);
-    font-size: 180%;
+    font-size: 200%;
     font-weight: 500;
-    padding: 3%;
+    line-height: 80%;
+}
+.card .card_button{
+    width: 34%;
+    height: 6%;
+    margin-left: 33%;
+    margin-bottom: 20%;
 }
 
 .card_button button{
@@ -27,8 +51,6 @@
   height: 40px;
   left: 1125px;
   top: 55px;
-  margin-left: 35%;
-  margin-bottom: 10%;
   background: rgb(6, 6, 6);
   color: #fff;
   font-family: var(--font-family);
