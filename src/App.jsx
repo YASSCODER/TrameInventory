@@ -1,5 +1,5 @@
 import NavBar from "./components/navBar/navBar";
-import { Header } from "./container";
+import { Header, Footer } from "./container";
 import './app.css';
 const App = () => {
   return (
@@ -7,6 +7,9 @@ const App = () => {
       <div className="gradiant__bg">
         <NavBar/>
         <Header/>
+      </div>
+      <div className="footer">
+        <Footer/>
       </div>
     </div>
   );
