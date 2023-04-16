@@ -1,15 +1,19 @@
 import './footer.css';
+import logo from '../../assets/logoHR.svg'
 const Footer = () => {
     return(
         <div className="footer_container">
-            <div className="studio">
-                <p>test</p>
+            <div className="client">
+                <p>TramePub</p>
+            </div>
+            <div className="divider">
             </div>
             <div className="catalog_link">
-                <p>test</p>
+                <a href="#">www.Catalog.com</a>
             </div>
-            <div className="client">
-                <p>test</p>
+            <div className="divider"></div>
+            <div className="studio">
+                <img src={logo} alt="" />
             </div>
         </div>
     )

@@ -1,7 +1,38 @@
 .footer_container{
-    background: #232323;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 1%;
+}
+.footer_container .studio {
+    width: 5%;
+    margin-right: 20%;
+}
+.studio img{
+    width: 100%;
+}
+.client{
+    margin-left: 20%;
+}
+.client p{
+    font-family: var(--font-family);
+    color: #48ec4e;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+.catalog_link{
+    margin-top: 0.4%;
+}
+.catalog_link a{
+    text-decoration: none;
+    font-family: var(--font-family);
+    color: #48ec4e;
+    font-size: 40px;
+}
+.divider{
+    margin-top: 1%;
+    background: #c5c2c2;
     height: 30px;
+    width: 1px;
 }
