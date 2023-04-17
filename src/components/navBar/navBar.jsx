@@ -4,13 +4,14 @@ import {faQrcode, faHouse} from '@fortawesome/free-solid-svg-icons'
 import './navBar.css';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import logo from'../../assets/logoHR.svg';
+import trame from'../../assets/LOGOTRAME.svg';
 const NavBar =  () => {
 return (
     <div className="navBar">
         <div className="navBar__links">
             {/* image div */}
             <div className="navBar__links_logo">
-                <img src={logo} alt="logo" />
+                <img src={trame} alt="logo" />
             </div>
             <div className="navBar_links_container">
                 <FontAwesomeIcon icon={faHouse} className='icon'/>
